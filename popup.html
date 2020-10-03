@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="jquery.min.js"></script>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" src="style.css">
+    <style>
+        body {
+            min-width: 300px;
+            min-height: 320px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="alert alert-warning" role="alert" style="width: 300px;">
+        <div class="input-group input-group-sm mb-3">
+            <input type="text" class="form-control" id="in_d" aria-describedby="inputGroup-sizing-sm" placeholder="your text">
+        </div>
+        <button type="button" class="btn btn-info btn-sm" id="gt_d">Go</button><button type="button" class="btn btn-warning btn-sm" id="snd_tb">scan this tab</button>
+        <div id="opt">
+            your QR code<a href="#" class="badge badge-success" id="f_lnk" download="qr">here</a>
+        </div>
+    </div>
+
+    <div id="i_frm" align="center">
+        <img src="https://image.ibb.co/jP2vfU/logo_3.png" alt="QR code" height="152px" width="152px" id="qr_d">
+    </div>
+    <br />
+    <div align="center">
+        <a href="https://goo.gl/forms/R69i4H3abMWfYrSk1" class="badge badge-primary" id="hlp">help?</a>&nbsp &nbsp &nbsp<a href="https://goo.gl/forms/rCcpbs4Nt341nlS63" class="badge badge-danger" id="bf">bug/feedback</a>
+    </div>
+    <div class="card-footer text-muted" align="center">
+        ~weirdcreators~
+    </div>
+</body>
+
+</html>
